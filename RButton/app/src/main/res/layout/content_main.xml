@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.movil.sony.rbutton.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/pantalla"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AZUL"
+        android:id="@+id/azul"
+        android:textSize="40dp"
+        android:layout_gravity="center"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMARILO"
+        android:id="@+id/amarillo"
+        android:textSize="40dp"
+        android:layout_gravity="center"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROJO"
+        android:id="@+id/rojo"
+        android:textSize="40dp"
+        android:layout_gravity="center"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRUEBA"
+                android:id="@+id/prueba"
+                android:textSize="40dp"
+                android:layout_gravity="center"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRUEBA2"
+                android:id="@+id/prueba2"
+                android:textSize="40dp"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRUEBA3"
+                android:id="@+id/prueba3"
+                android:textSize="40dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
